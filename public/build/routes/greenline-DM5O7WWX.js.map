@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:F:\\Ferro\\Projects\\remix-tsc\\app\\routes\\greenline.tsx?browser", "../../../app/routes/greenline.tsx"],
+  "sourcesContent": ["export { default, meta } from \"F:\\\\Ferro\\\\Projects\\\\remix-tsc\\\\app\\\\routes\\\\greenline.tsx\";", "import type { MetaFunction } from \"@remix-run/node\";\r\n\r\nexport const meta: MetaFunction = () => {\r\n  return {\r\n    title: \"Something cool\",\r\n    description:\r\n      \"This becomes the nice preview on search results.\",\r\n  };\r\n};\r\n\r\nexport default function (){\r\n\r\n    return(<>\r\n    \r\n    </>)\r\n}"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAEO,IAAM,OAAqB,MAAM;AACtC,SAAO;AAAA,IACL,OAAO;AAAA,IACP,aACE;AAAA;AAAA;AAIS,6BAAW;AAEtB,SAAO;AAAA;",
+  "names": []
+}

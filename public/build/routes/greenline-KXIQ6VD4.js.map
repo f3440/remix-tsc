@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:F:\\Ferro\\Projects\\remix-tsc\\app\\routes\\greenline.tsx?browser", "../../../app/routes/greenline.tsx"],
+  "sourcesContent": ["export { default } from \"F:\\\\Ferro\\\\Projects\\\\remix-tsc\\\\app\\\\routes\\\\greenline.tsx\";", "export default function (){\r\n\r\n    return(<>\r\n    \r\n    </>)\r\n}"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAe,6BAAW;AAEtB,SAAO;AAAA;",
+  "names": []
+}

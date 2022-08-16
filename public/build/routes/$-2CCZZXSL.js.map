@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:F:\\Ferro\\Projects\\remix-tsc\\app\\routes\\$.tsx?browser", "../../../app/routes/$.tsx"],
+  "sourcesContent": ["export { default } from \"F:\\\\Ferro\\\\Projects\\\\remix-tsc\\\\app\\\\routes\\\\$.tsx\";", "import { useParams } from \"@remix-run/react\";\r\nimport type {\r\n  LoaderFunction,\r\n  ActionFunction,\r\n} from \"@remix-run/node\"; // or cloudflare/deno\r\n\r\nexport const loader: LoaderFunction = async ({\r\n  params,\r\n}) => {\r\n  console.log(params[\"*\"]);\r\n};\r\n\r\nexport const action: ActionFunction = async ({\r\n  params,\r\n}) => {\r\n  console.log(params[\"*\"]);\r\n};\r\n\r\nexport default function PostRoute() {\r\n  const params = useParams();\r\n  console.log(params[\"*\"]);\r\n}"],
+  "mappings": ";;;;;;;;AAAA;;;ACAA;AAkBe,qBAAqB;AAClC,QAAM,SAAS;AACf,UAAQ,IAAI,OAAO;AAAA;",
+  "names": []
+}
